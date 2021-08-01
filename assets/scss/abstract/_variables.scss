@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+//font-family
+$Newsreader: 'Newsreader', serif;
+
+
+//font-width
+$regular: 400;
+$semi-bold: 600;
+
+//font-style
+$cursiva: italic;
+
+//font-size
+$xx-large: 70px;
+$x-large: 30px;
+$large: 18px;
+$medium: 16px;
+$small: 12px;
+
+//colors
+$White: #FFF;
+$Olive: #4f530e;
+$Light-purple: #7b54e9;
+$Hope-green: #54e961;
+$Deep-blue: #080316;
+
+//breakpoints
+
+$bp-sm:576px;
+$bp-md:768px;
+$bp-lg:992px;
+$bp-xl:1200px;

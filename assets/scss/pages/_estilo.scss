@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $Newsreader;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.menu {
+    padding: 10px;
+    border-bottom: 1px solid gray;       
+}
+
+.logo {
+    font-size: $x-large;
+    font-weight: bold;       
+}
+
+.nav {    
+    width: 100%;       
+}
+
+
+.nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 40px;
+}
+
+.input-menu {
+    border-radius: 30px;
+    width:100%;
+}
+
+
+.noticia {        
+    cursor: pointer;
+    font-size: $x-large;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 40px;
+
+    .cabecera {
+        font-size: $medium;
+        font-weight: $semi-bold;
+    }
+
+    .cuerpo img {
+        font-size: $medium;
+        font-size: $regular;
+    }
+    
+    .cuerpo p {
+        font-size: $large;
+        font-weight: $regular;
+        padding: 5px;
+    }
+}
+
+#nosotros {
+    margin-right: 30px;
+    margin-left:20px;
+        h1 {
+        font-size: $x-large;
+        }
+
+        p {
+        font-size: $small;
+        }
+}
+
+.cabecera-listado {
+    
+    border-bottom: 1px solid gray;
+}
+
+.tags {
+    border-bottom: 1px solid gray;
+
+    h1 {
+        font-size: $x-large;
+    }
+}
+
+.tags ul {
+    padding: 0;
+    list-style: none;
+    font-size: $large;
+}
+
+.tags ul li {
+    padding: 2px 4px;
+    background-color: steelblue;
+    margin-right: 1px;
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.noticias-destacadas {
+    margin-bottom: 10px;
+    
+    h5 {
+        font-size: 14px;
+    }
+}
+
+.newsletter {
+    background-color: #f2f4f5;
+    text-align: center;
+    padding-top: 30px;
+    font-size: $large;
+    margin-bottom: 20px;;
+
+    h2 {
+        font-size: $x-large;;
+    }
+
+    p{
+        font-weight: $semi-bold;
+    }
+
+    .group input,
+    .group button {
+        display: inline-block;
+        border-width: 0;
+        font-size: $x-large;
+        padding: 5px 10px;
+    }
+
+    .group button {
+        background-color: coral;
+        color: white;
+    }
+}
+
+
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: $Light-purple;
+    height: 40px;
+    font-size: $medium;
+
+    p {
+        padding-top: 10px;
+    }
+}
+
+
